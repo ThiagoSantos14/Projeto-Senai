@@ -1,0 +1,683 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html body {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #05abd4;
+}
+
+header img {
+    margin-left: 5vw;
+}
+
+span {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+/*Class predefinida pelo google icons*/
+.material-symbols-outlined {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 30px;
+    margin-right: 10vw;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    background: #ffa600;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+nav a:hover {
+    opacity: 0.5;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.displayNavOn {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #ffa500;
+    margin-bottom: 10vh;
+    padding: 10px;
+}
+
+.displayNavOn a {
+    background: none;
+    gap: 0px;
+}
+
+.displayNavOff {
+    display: none;
+}
+
+.text-central {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: #ecebeb;
+    font-size: 1.3rem;
+    margin-bottom: 10vh;
+}
+
+.text-central p {
+    width: 80%;
+    background: #05abd4;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.displayTextCenterOn {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38vh;
+    gap: 10px;
+    background: #ecebeb;
+    padding: 10px;
+}
+
+.displayNavOn a {
+    font-size: 1.3rem;
+}
+.displayTextCenterOff {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+    gap: 10px;
+    background: #ecebeb;
+    margin-bottom: 10vh;
+    font-size: 1.3rem;
+}
+
+.displayTextCenterOff p {
+    background: #05abd4;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+}
+
+.tituloFeedback {
+    margin-top: 7vh;
+    margin-bottom: -5vh;
+    background: #ffa500;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 1.5rem;
+}
+
+.cards {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 50vh;
+}
+
+.card p {
+    background: #05abd4;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 50vh;
+    border-radius: 30px;
+}
+
+.card h2 {
+    font-size: 2rem;
+}
+
+.card p {
+    font-size: 1.3rem;
+}
+
+.content-footerHome {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25vh;
+    padding-bottom: 3vh;
+    background: #ecebeb;
+}
+
+.content-Home img {
+    margin-right: 1vh;
+}
+
+.content-footerHome li {
+    margin-top: 1vh;
+    list-style-type: none;
+}
+
+
+
+/*Style da página quem somos*/
+.cards-quem-somos {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    gap: 100px;
+    font-size: 1.3rem;
+}
+
+.cards-quem-somos img {
+    margin-left: 3vh;
+    margin-right: 3vh;
+    border-radius: 30px;
+}
+
+.cards-quem-somos li {
+    list-style-type: none;
+}
+
+.card-quem-somos1 {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.card-quem-somos1 li {
+    background: #05abd4;
+    padding: 10px;
+    border-radius: 30px;
+} 
+
+.card-quem-somos2 {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.card-quem-somos2 li {
+    background: #05abd4;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.card-quem-somos3 {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.card-quem-somos3 li {
+    background: #05abd4;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.content-footer-quem-somos {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ecebeb;
+    margin-top: 30vh;
+}
+
+.content-footer-quem-somos li {
+    margin-top: 1vh;
+    list-style-type: none;
+}
+
+
+
+/*Style da página serviços*/
+.cards-servicos {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    margin-top: 10vh;
+}
+
+.cards-servicos li {
+    list-style-type: none;
+    font-size: 1.3rem;
+    background: #05abd4;
+    padding: 20px;
+    margin-bottom: 1vh;
+    border-radius: 30px;
+}
+
+.card-servico1, .card-servico2, .card-servico3 {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.card-servico1 img {
+    margin-top: 5vh;
+    margin-right: 3vh;
+    border-radius: 30px;
+}
+
+.card-servico2 img {
+    margin-top: 5vh;
+    margin-left: 3vh;
+    border-radius: 30px;
+}
+
+.card-servico3 img {
+    margin-top: 5vh;
+    margin-right: 3vh;
+    border-radius: 30px;
+}
+
+.content-footer-servico {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25vh;
+    background: #ecebeb;
+}
+
+.content-footer-servico li {
+    list-style-type: none;
+    margin-top: 1vh;
+}
+
+
+
+/*Style da página acessorios*/
+.card-acessorio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.card-acessorio img {
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.card-acessorio li {
+    list-style-type: none;
+    list-style-type: none;
+    font-size: 1.1rem;
+    background: #05abd4;
+    padding: 20px;
+    margin-bottom: 1vh;
+    border-radius: 30px;
+}
+
+.content-footer-acessorios {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    background: #ecebeb;
+}
+
+.content-footer-acessorios li {
+    margin-top: 1vh;
+    list-style-type: none ;
+}
+
+
+
+/*Style da página lojas*/
+.cards-lojas {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.cards-lojas li {
+    background: #05abd4;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 1vh;
+}
+
+.cards-lojas img {
+    margin-right: 5vh;
+    border-radius: 30px;
+}
+
+.cards-lojas li {
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+
+.card-loja1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-loja2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-loja2 img {
+    margin-left: 5vh;
+}
+
+.card-loja3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-loja4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.card-loja4 img {
+    margin-left: 5vh;
+}
+
+.content-footer-loja {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ecebeb;
+    margin-top: 25vh;
+}
+
+.content-footer-loja li {
+    list-style-type: none;
+    margin-top: 1vh;
+}
+
+@media(max-width: 1024px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-central {
+        width: 100vw;
+        height: 90vh;
+    }
+
+    .text-central h1 {
+        margin-top: 1vh;
+    }
+
+    .material-symbols-outlined {
+        display: block;
+        font-size: 4rem;
+    }
+    
+    #iconClose {
+        display: none;
+    }
+
+    .cards {
+        width: 100%;
+        margin-top: 20vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40vh;
+    }
+
+    .content-footerHome {
+        margin-top: 220vh;
+    }
+
+
+
+    /*Style da página quem somos*/
+    .card-quem-somos1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30vh;
+        margin-bottom: 70vh;
+    }
+
+    .card-quem-somos1 img {
+        margin-top: 3vh;
+    }
+
+    .card-quem-somos2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20vh;
+        margin-bottom: 70vh;
+    }
+
+    .card-quem-somos2 img {
+        margin-bottom: 3vh;
+    }
+
+    .card-quem-somos3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20vh;
+        margin-bottom: 20vh;
+    }
+
+    .card-quem-somos3 img {
+        margin-top: 3vh;
+    }
+
+    .content-footer-quem-somos p {
+        margin-left: 4vh;
+    }
+
+    
+
+    /*Style da página servico*/
+    .card-servico1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50vh;
+    }
+
+    .card-servico2 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50vh;
+    }
+
+    .card-servico3 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50vh;
+    }
+
+    .card-servico1 img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 1vh;
+    }
+
+    .card-servico2 img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .card-servico3 img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 1vh;
+    }
+
+
+
+    /*Style da página acessorios*/
+    .card-acessorio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10vh;
+    }
+
+    .card-acessorio li {
+        list-style-type: none;
+        list-style-type: none;
+        font-size: 1.1rem;
+        background: #05abd4;
+        padding: 20px;
+        margin-bottom: 1vh;
+        border-radius: 30px;
+    }
+
+    .card-acessorio img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .content-footer-acessorios p {
+        margin-left: 3vh;
+    }
+
+    .content-footer-acessorios li {
+        list-style-type: none;
+        margin-top: 1vh;
+    }
+
+
+
+    /*Style da página lojas*/
+    .cards-lojas {
+        margin-top: 10vh;
+    }
+
+    .cards-lojas li {
+        width: 300px;
+    }
+
+    .card-loja1 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card-loja1 img {
+        margin-left: 5vh;
+    }
+
+    .card-loja2 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card-loja3 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card-loja3 img {
+        margin-left: 5vh;
+    }
+
+    .card-loja4 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
