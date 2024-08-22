@@ -33,6 +33,7 @@ span {
 /*Class predefinida pelo google icons*/
 .material-symbols-outlined {
     display: none;
+    cursor: pointer;
 }
 
 nav ul {
@@ -49,6 +50,7 @@ nav a {
     background: #ffa600;
     padding: 10px;
     border-radius: 40px;
+    font-size: 1.3rem;
 }
 
 nav a:hover {
@@ -83,7 +85,7 @@ main {
 
 .text-central {
     width: 100%;
-    height: 30vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
